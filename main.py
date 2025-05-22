@@ -1,3 +1,11 @@
+def main():
+    """ Main Program """
+    menu()
+
+    return 0
+
+# FUNCTIONS
+
 def menu():
     
     print("Welcome to the Job Application Tracker!\n" \
@@ -8,5 +16,5 @@ def menu():
     "5. Search applications\n" \
     "0. Exit")
 
-
-menu()
+if __name__ == "__main__":
+    main()
