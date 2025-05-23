@@ -2,7 +2,25 @@ def main():
     """ Main Program """
     menu()
 
-    return 0
+    # Declare variable to loop through
+    option = input("What would you like to do? ")
+
+    while option != 0:
+        
+        if option == 1:
+            print(1)
+        elif option == 2:
+            print(2)
+        elif option == 3:
+            print(3)
+        elif option == 4:
+            print(4)
+        elif option == 5:
+            print(5)
+        elif option == 0:
+            return 0
+        else:
+            print("That's an invalid option.")
 
 # FUNCTIONS
 
