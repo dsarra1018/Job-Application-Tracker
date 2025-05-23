@@ -1,3 +1,6 @@
+from models import JobApplication
+
+
 def main():
     """ Main Program """
     menu()
